@@ -18,6 +18,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'haml-rails', '~> 0.4'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
@@ -30,9 +31,27 @@ gem 'jbuilder', '~> 1.0.1'
 
 # Use unicorn as the app server
 # gem 'unicorn'
+gem 'puma', '~> 1.6.3'
 
 # Deploy with Capistrano
 # gem 'capistrano', group: :development
 
 # To use debugger
 # gem 'debugger'
+
+group :development, :test do
+#  gem 'pry', '~> 0.9.12'
+  gem 'pry-rails'
+  gem 'pry-nav', '~> 0.2.3'
+  gem 'awesome_print', '~> 1.1.0'
+  gem 'annotate', '~> 2.5.0'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'rspec-rails',  '~> 2.12.0'
+  gem 'spork'
+  gem 'rails_best_practices', '~> 1.13.4'
+end
+
+group :test do
+  gem 'capybara', "2.0.2"
+end
