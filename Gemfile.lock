@@ -197,7 +197,7 @@ DEPENDENCIES
   puma (~> 1.6.3)
   rails (= 4.0.0.beta1)
   rails_best_practices (~> 1.13.4)
-  rspec-rails (~> 2.12.0)
+  rspec-rails (~> 2.12)
   sass-rails (~> 4.0.0.beta1)
   spork
   sqlite3

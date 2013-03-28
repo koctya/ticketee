@@ -47,7 +47,7 @@ group :development, :test do
   gem 'annotate', '~> 2.5.0'
   gem 'better_errors'
   gem 'binding_of_caller'
-  gem 'rspec-rails',  '~> 2.12.0'
+  gem 'rspec-rails',  '~> 2.12'
   gem 'spork'
   gem 'rails_best_practices', '~> 1.13.4'
 end
