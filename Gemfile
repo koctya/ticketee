@@ -26,6 +26,11 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.0.1'
 
+#gem 'devise', '~> 2.2.3'
+#gem 'devise', github: 'idl3/devise', branch: 'rails4'
+#gem 'protected_attributes'
+gem 'devise', github: 'plataformatec/devise', branch: 'rails4'
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
